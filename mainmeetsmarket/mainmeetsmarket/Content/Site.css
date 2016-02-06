@@ -9,6 +9,43 @@
     padding-left: 15px;
     padding-right: 15px;
 }
+.facebook  {
+	position: relative;
+	top: 0px;
+	left: 0px;
+	width: 20px;
+	height: 20px;
+	cursor: pointer;
+    
+	    opacity:1;
+        background-image: url(share-fb.png);
+    }
+  .twitter {
+	position: relative;	
+	top: 0px;
+	left: 0px;
+	width:40px;
+	height:40px;
+	cursor: pointer;
+    background-image: url(share-tt.png);
+	    opacity:1;
+    }
+ 
+	
+		 .instagram {
+	position: relative;	
+	top:-175px;
+	left: 465px;
+	width:40px;
+	height:40px;
+	cursor: pointer;
+	    opacity:1;
+        background-image: url(instagram.png);
+	
+    }
+a:hover {
+    left:20px;
+}
 
 /* Override the default bootstrap behavior where horizontal description lists 
    will truncate terms that are too long to fit in the left column 
